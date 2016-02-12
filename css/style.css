@@ -13,12 +13,12 @@ div {background-color:#ffffff;
 	margin: 0px;	
 }
 .logo {
-	margin: 20px 35px; 50px;
+	margin: 20px 35px 50px;
 	}
 .header {	
 	background-color:#535353;
 	margin: 0px 35px 30px;
-	width: 100%;	
+	width: 98%;	
 	}
 ul.top-menu {
 	margin: 0px;
@@ -31,7 +31,7 @@ ul.top-menu li {
 	
 ul.top-menu li a {
 	display: block; 
-	padding: 5px 15px; 
+	padding: 10px 15px; 
 	color: #ffffff; 
 	text-decoration: none;
 	border-left: solid 1px #535353;
@@ -70,26 +70,31 @@ ul.side-menu li a:hover {
 	background-color: #f9f9f9;
 	color:#2c2c2c;
 	padding-left:25px;}
+.content {
+		display: block;
+		width: 75%;
+		float: right;
+		}
 .wheel {
 	border: solid 1px #c8c8c8;
-	padding: 10px 10px;
+	padding: 0px;
 	margin: 0px;
-	width: 70%;
-}
-p {
-	margin: 15px 0px 15px 260px;
+	width: 100%;
+	}
+p { display: block;
+	margin: 20px 0% 20px 0px;
 	color: #2c2c2c;
 	font-family: open-sans-condensed;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 300px;
 	font-size: 14px;
 	line-height: 25px;
-	
 }
 .footer {
 	background-color: #e1e1e1;
 	margin: 20px 35px;
-	width: 100%;
+	width: 98%;
+	clear: both;
 	}
 ul.bot-menu {
 	margin:0;
@@ -101,7 +106,7 @@ ul.bot-menu li {
 	}
 ul.bot-menu li a {
 	display: block;
-	padding: 5px 16px;
+	padding: 10px 16px;
 	text-decoration:none;
 	color: #2c2c2c;
 }
@@ -109,6 +114,10 @@ ul.bot-menu li a:hover {
 	text-decoration:underline;
 }
 
-ul.bot-menu li:last-child {
-	padding: 0 0 0 600px;
-}
+.copyright {
+	float:right;
+	display: block;
+	padding: 10px 16px;
+	text-decoration:none;
+	color: #2c2c2c;
+	}
