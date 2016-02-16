@@ -4,13 +4,13 @@
 }
  
 body {
-	background-color: #f9f9f9;
+	background-color:#eeeeee;
 	font-family: open-sans-condensed;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 200px;
 	}
 div {background-color:#ffffff;
-	margin: 0px;	
+	margin: 0px 10%;	
 }
 .logo {
 	margin: 20px 35px 50px;
